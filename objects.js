@@ -1,10 +1,9 @@
 
 
-
 // Assign an object to the variable playlist and
 // initialize the object with a key-value pair (artist name, song title)
 
-var playList = new Object()
+var playList = new Object({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes'})
 
 // add the song and artist as a key-value pair to the playlist object.
 // return the whole playlist.
