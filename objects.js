@@ -11,7 +11,7 @@ function updatePlaylist(playlist, name, title) {
   Object.assign(playlist, {[name]: title})
 }
 
-// delete the key-value pair from the playlist and 
+// delete the key-value pair from the playlist and
 // return the updated playlist
 function removeFromPlaylist(playlist, name) {
   delete playlist.name
