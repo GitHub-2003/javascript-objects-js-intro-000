@@ -8,9 +8,7 @@ var playlist = new Object({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometim
 // add the song and artist as a key-value pair to the playlist object.
 // return the whole playlist.
 function updatePlaylist(playlist, name, title) {
-  playlist.name = name
-  playlist.title = title
-  return playlist
+  Object.assign(playlist, {[name]: title})
 }
 
 function removeFromPlaylist(playlist, name) {
